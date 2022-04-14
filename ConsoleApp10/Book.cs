@@ -17,7 +17,7 @@ namespace ConsoleApp10
 
         public override string ToString()
         {
-            return $"Тип - Газета\n" +
+            return $"Тип - Книга\n" +
                          $"техника производства  - {ProductionTime}\n" +
                          $"конечный процесс - {FinalProcess} \n" +
                          $"краски - {ProductioTechnique} \n" +
