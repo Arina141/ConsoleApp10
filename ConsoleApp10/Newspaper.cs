@@ -10,7 +10,7 @@ namespace ConsoleApp10
     {
         public Newspaper(string productiontechnique, string productiontime, string material, string paperr) : base(productiontechnique, productiontime, material)
         {
-            Paperr = paperr;///бумага
+            Paperr = paperr;//бумага
         }
 
         public string Paperr { get; set; }

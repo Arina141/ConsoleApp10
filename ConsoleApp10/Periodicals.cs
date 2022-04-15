@@ -10,7 +10,7 @@ namespace ConsoleApp10
     {
         public Periodicals(string productiontechnique, string productiontime, string material, string priceneed) : base(productiontechnique, productiontime, material)
         {
-            PriceNeed = priceneed;///Цено потребность
+            PriceNeed = priceneed;//Цено потребность
         }
 
         public string PriceNeed { get; set; }
