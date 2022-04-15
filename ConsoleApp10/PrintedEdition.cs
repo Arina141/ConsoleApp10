@@ -11,7 +11,7 @@ namespace ConsoleApp10
         public PrintedEdition(string productiontechnique, string productiontime, string material)
         {
             ProductioTechnique = productiontechnique;//техника производства 
-            ProductionTime = productiontime;//Производство врремя
+            ProductionTime = productiontime;//Производство время
             Material = material;//материал
         }
         public string ProductionTime { get; set; }

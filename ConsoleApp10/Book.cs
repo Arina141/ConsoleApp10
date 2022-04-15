@@ -10,7 +10,7 @@ namespace ConsoleApp10
     {
         public Book(string productiontechnique, string productiontime, string material, string finalprocess) : base(productiontechnique, productiontime, material)
         {
-            FinalProcess = finalprocess;//Заключительный процесс
+            FinalProcess = finalprocess;///Заключительный процесс
         }
 
         public string FinalProcess { get; set; }
